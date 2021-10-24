@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create account for feedback</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        margin: 0px;
+      }
+      #header {
+        background-color: black;
+        height: 70px;
+      }
+      #a {
+        color: cornsilk;
+        margin-right: 30px;
+        text-decoration: none;
+      }
+      #brand {
+        width: 40%;
+
+        float: left;
+        height: 70px;
+        text-align: center;
+        line-height: 70px;
+        color: cornsilk;
+        font-size: 40px;
+        font-family: sans-serif;
+      }
+      #menu {
+        color: cornsilk;
+        width: 60%;
+        float: right;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+      }
+      #bw {
+        background: linear-gradient(15deg, coral, limegreen);
+        height: 100vh;
+      }
+      #p1 {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 550;
+      }
+      #p2 {
+        margin-left: 550px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 10px;
+        margin-bottom: 30px;
+      }
+      #fn {
+        box-shadow: 0 0 10px rgba(247, 242, 242, 0.795);
+        border: none;
+        margin-left: 550px;
+        padding: 10px 20px 10px 20px;
+      }
+      #ln {
+        box-shadow: 0 0 10px rgba(247, 242, 242, 0.795);
+        border: none;
+        margin-left: 50px;
+        padding: 10px 20px 10px 20px;
+      }
+      #em {
+        box-shadow: 0 0 10px rgba(247, 242, 242, 0.795);
+        border: none;
+        margin-left: 550px;
+        padding: 10px 280px 10px 20px;
+        margin-top: 20px;
+      }
+      #pn {
+        box-shadow: 0 0 10px rgba(247, 242, 242, 0.795);
+        border: none;
+        margin-left: 550px;
+        padding: 10px 280px 10px 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      #date {
+        margin-left: 550px;
+        padding: 5px 20px 5px 20px;
+        margin-top: 10px;
+        border: none;
+      }
+      #bday {
+        margin-left: 550px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+      }
+      #why {
+        margin-top: 0px;
+
+        padding-left: 15px;
+      }
+      #male {
+        margin-left: 550px;
+      }
+      #m {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+        padding-left: 5px;
+      }
+      #fm {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+        padding-left: 5px;
+      }
+      #pf {
+        margin-top: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 550px;
+      }
+      #ca {
+        margin-top: 20px;
+        margin-left: 550px;
+        padding: 10px 25px 10px 25px;
+        color: white;
+        background-color: yellowgreen;
+        border-radius: 5px;
+        border: none;
+      }
+      #feedback {
+        margin-top: 20px;
+        margin-left: 50px;
+        padding: 10px 25px 10px 25px;
+        color: white;
+        background-color: yellowgreen;
+        border-radius: 5px;
+        border: none;
+      }
+      #rateus {
+        text-decoration: none;
+        color: white;
+      }
+      #log {
+        text-decoration: none;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div id="brand">Geekster's Food World</div>
+      <div id="menu">
+        <a id="a" href="my_foodworld.html">Home</a>
+        <a id="a" href="pizza.html">Pizza</a>
+        <a id="a" href="sd.html">Soft Drinks</a>
+        <a id="a" href="burgers.html">Burgers</a>
+        <a id="a" href="foodworld_signup.html">Profile</a>
+        
+      </div>
+    </div>
+    <div id="bw">
+      <p id="p1">Create a new account</p>
+      <p id="p2">It's free and always will be.</p>
+      <form>
+        <input id="fn" type="text" placeholder="First name" required />
+
+        <input id="ln" type="text" placeholder="Last name" required />
+        <br />
+
+        <input
+          id="em"
+          type="email+phone"
+          placeholder="Email or Phone"
+          required
+        />
+        <br />
+
+        <input
+          id="pn"
+          type="password"
+          placeholder="New Password"
+          required
+          minlength="8"
+        />
+
+        <br />
+        <label id="bday">Birthday</label><br />
+        <input id="date" type="date" required /><a id="why" href=""
+          >Why do I need to provide my<br /><span style="margin-left: 750px">
+            date of birth?</span
+          ></a
+        >
+        <br />
+        <input id="male" type="radio" name="gender" required />
+        <label id="m" for="gender">Male</label>
+        <input style="margin-left: 10px" type="radio" name="gender" required />
+        <label id="fm" for="gender">Female</label>
+        <p id="pf">
+          By clicking create account, you are agree to our
+          <a href=""> Terms</a> and confirm <br />that you have read our
+          <a href=""> Data Poicy</a>, including Our<a href="">
+            Cookies Use <br />
+            Poicy</a
+          >.You may recieve SMS message notification from <br />
+          facebook and can opt out any time.
+        </p>
+        <button type="submit" id="ca">Create Account</button>
+        <button type="button" id="feedback">
+          <a id="rateus" href="foodworld_feedback.html">Rate us</a>
+        </button>
+        <button type="button" id="feedback">
+          <a id="log" href="foodworld_loginpage.html">Log in</a>
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

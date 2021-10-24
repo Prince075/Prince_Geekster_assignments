@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodworld'feedback</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      body {
+        margin: 0px;
+        background: linear-gradient(15deg, coral, limegreen);
+      }
+      #header {
+        background-color: black;
+        height: 70px;
+      }
+      #a {
+        color: cornsilk;
+        margin-right: 30px;
+        text-decoration: none;
+      }
+      #brand {
+        width: 40%;
+
+        float: left;
+        height: 70px;
+        text-align: center;
+        line-height: 70px;
+        color: cornsilk;
+        font-size: 40px;
+        font-family: sans-serif;
+      }
+      #menu {
+        color: cornsilk;
+        width: 60%;
+        float: right;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+      }
+
+      #container {
+        box-shadow: 0 0 20px black;
+
+        width: 50%;
+        height: 65%;
+        float: center;
+        margin: 80px 0px 20px 380px;
+        position: absolute;
+      }
+      #p1 {
+        text-align: center;
+        color: coral;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-top: 20px;
+      }
+      #p2 {
+        font-size: 30px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 550;
+        text-align: center;
+      }
+      #name {
+        margin-top: 20px;
+        margin-left: 120px;
+        padding: 5px 30px 5px 20px;
+        border: none;
+        box-shadow: 0 0 5px cornsilk;
+      }
+      #email {
+        margin-left: 80px;
+        padding: 5px 30px 5px 20px;
+        border: none;
+        box-shadow: 0 0 5px cornsilk;
+      }
+      #male {
+        margin-left: 260px;
+        margin-top: 20px;
+      }
+      #female {
+        margin-left: 50px;
+      }
+      #m {
+        font-size: 20px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      #fm {
+        font-size: 20px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      #selector {
+        border: none;
+        padding: 5px 10px 5px 10px;
+        box-shadow: 0 0 5px cornsilk;
+        margin-top: 20px;
+      }
+      label {
+        margin-left: 10px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+      }
+      #suggest {
+        margin-left: 10px;
+        margin-top: 50px;
+        padding: 30px 200px 20px 50px;
+        box-shadow: 0 0 5px cornsilk;
+        border: none;
+        border-radius: 10px;
+      }
+      #l {
+        margin-left: 50px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+      }
+      #ca {
+        margin-top: 50px;
+        margin-left: 180px;
+        padding: 10px 25px 10px 25px;
+        color: white;
+        background-color: yellowgreen;
+        border-radius: 5px;
+        border: none;
+      }
+      #login {
+        text-decoration: none;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div id="brand">Geekster's Food World</div>
+      <div id="menu">
+        <a id="a" href="my_foodworld.html">Home</a>
+        <a id="a" href="pizza.html">Pizza</a>
+        <a id="a" href="sd.html">Soft Drinks</a>
+        <a id="a" href="burgers.html">Burgers</a>
+        <a id="a" href="foodworld_signup.html">Profile</a>
+      </div>
+    </div>
+    <div id="container">
+      <p id="p1">Food World</p>
+      <p id="p2">Tell us ? To Improve!!</p>
+      <form>
+        <input id="name" type="text" placeholder="Enter your name" required />
+
+        <input
+          id="email"
+          type="email+phone"
+          placeholder="Email or phone"
+          required
+        />
+        <br />
+        <input id="male" type="radio" name="gender" required />
+        <label id="m" for="gender">Male</label>
+        <input id="female" type="radio" name="gender" required />
+        <label id="fm" for="gender">Female</label><br />
+        <label for="selector">Food</label>
+        <select id="selector">
+          <option value="Excellent">Excellen</option>
+          <option value="VeryGood">VeryGood</option>
+          <option value="Good">Good</option>
+          <option value="poor">poor</option>
+          <option value="Very poor">Very poor</option>
+        </select>
+        <label for="selector">Service</label>
+        <select id="selector">
+          <option value="Excellent">Excellen</option>
+          <option value="VeryGood">VeryGood</option>
+          <option value="Good">Good</option>
+          <option value="poor">poor</option>
+          <option value="Very poor">Very poor</option>
+        </select>
+        <label for="selector">Cleannes</label>
+        <select id="selector">
+          <option value="Excellent">Excellen</option>
+          <option value="VeryGood">VeryGood</option>
+          <option value="Good">Good</option>
+          <option value="poor">poor</option>
+          <option value="Very poor">Very poor</option>
+        </select>
+        <label for="selector">Management</label>
+        <select id="selector">
+          <option value="Excellent">Excellen</option>
+          <option value="VeryGood">VeryGood</option>
+          <option value="Good">Good</option>
+          <option value="poor">poor</option>
+          <option value="Very poor">Very poor</option>
+        </select>
+        <label id="l">Any Suggestion:</label>
+        <input id="suggest" type="textarea" />
+        <br />
+        <button type="submit" id="ca">Submit</button>
+        <button type="button" id="ca">
+          <a id="login" href="my_foodworld.html">Back</a>
+        </button>
+      </form>
+    </div>
+    <p></p>
+  </body>
+</html>

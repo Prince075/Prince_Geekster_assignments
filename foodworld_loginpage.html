@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodworld' Log in page</title>
+    <style>
+      body {
+        margin: 0px;
+        background: linear-gradient(45deg, coral, limegreen);
+      }
+      #header {
+        background-color: black;
+        height: 70px;
+      }
+      #a {
+        color: cornsilk;
+        margin-right: 30px;
+        text-decoration: none;
+      }
+      #brand {
+        width: 40%;
+
+        float: left;
+        height: 70px;
+        text-align: center;
+        line-height: 70px;
+        color: cornsilk;
+        font-size: 40px;
+        font-family: sans-serif;
+      }
+      #menu {
+        color: cornsilk;
+        width: 60%;
+        float: right;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+      }
+      #container {
+        box-shadow: 0 0 20px black;
+
+        width: 50%;
+        height: 60%;
+        float: center;
+        margin: 100px 0px 20px 380px;
+        position: absolute;
+      }
+      #p1 {
+        text-align: center;
+        color: coral;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: sans-serif;
+      }
+      #input {
+        margin-top: 10px;
+        margin-left: 270px;
+        padding: 5px 50px 5px 10px;
+        border: none;
+        box-shadow: 0 0 5px rgba(247, 242, 242, 0.795);
+      }
+      #label {
+        margin-left: 270px;
+        padding-top: 5px;
+        color: cornsilk;
+      }
+      button {
+        margin-left: 270px;
+        margin-top: 20px;
+        padding: 8px 25px 8px 25px;
+        color: white;
+        background-color: yellowgreen;
+        border-radius: 5px;
+        border: none;
+      }
+      #dont {
+        color: white;
+        margin-left: 500px;
+        padding-top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div id="brand">Geekster's Food World</div>
+      <div id="menu">
+        <a id="a" href="home.html">Home</a>
+        <a id="a" href="pizza.html">Pizza</a>
+        <a id="a" href="sd.html">Soft Drinks</a>
+        <a id="a" href="burgers.html">Burgers</a>
+        <a id="a" href="foodworld_signup.html">Profile</a>
+        
+      </div>
+    </div>
+    <div id="container">
+      <form>
+        <div>
+          <p id="p1">Food World</p>
+          <form>
+            <label id="label">Email or Phone</label><br />
+            <input id="input" type="email+phone" required /><br />
+            <label id="label">Password</label><br />
+            <input id="input" type="password" required /><br />
+            <button>Log in</button><br />
+            <a id="dont" href="foodworld_signup.html"
+              >Don't have? Create One..</a
+            >
+          </form>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
